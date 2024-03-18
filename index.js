@@ -13,22 +13,22 @@ let getCity = document.querySelector('#searchInput');
         const weatherCondition = (data) =>{
             
             if(data.weather[0].main == "Clouds"){
-                document.querySelector('.weather-image').src ="images/clouds.png"
+                document.querySelector('.weather-image').src ="clouds.png"
             }
             else if(data.weather[0].main == "Clear"){
-                document.querySelector('.weather-image').src ="images/clear.png"
+                document.querySelector('.weather-image').src ="clear.png"
             }
             else if(data.weather[0].main == "Drizzle"){
-                document.querySelector('.weather-image').src ="images/drizzle.png"
+                document.querySelector('.weather-image').src ="drizzle.png"
             }
             else if(data.weather[0].main == "Mist"){
-                document.querySelector('.weather-image').src ="images/mist.png"
+                document.querySelector('.weather-image').src ="mist.png"
             }
             else if(data.weather[0].main == "Rain"){
-                document.querySelector('.weather-image').src ="images/rain.png"
+                document.querySelector('.weather-image').src ="rain.png"
             }
             else if(data.weather[0].main == "Snow"){
-                document.querySelector('.weather-image').src ="images/snow.png"
+                document.querySelector('.weather-image').src ="snow.png"
             }
 
         }
